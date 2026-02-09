@@ -1,19 +1,4 @@
-﻿"""
-Search Algorithms Assignment (Problems 1–2)
-- Problem 1: BFS + DFS on (a) directed graph and (b) grid
-- Problem 2: Depth-Limited Search on the same grid with limits 4 and 8
-
-Grid interpretation used here (based on your latest clarification):
-- black squares = Free / walkable  (0)
-- gray squares  = Blocked / wall   (1)
-
-Coordinates:
-- (row, col) with row 0 at the top, col 0 at the left
-- Start A = (6, 0)
-- Goal  B = (3, 3)
-"""
-
-from collections import deque
+﻿from collections import deque
 from typing import Dict, List, Tuple, Optional, Set
 
 Node = str
