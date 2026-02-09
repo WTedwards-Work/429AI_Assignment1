@@ -8,7 +8,7 @@ PathCoords = List[Coord]
 
 
 # ----------------------------
-# Problem 1(a,b): GRAPH SEARCH
+# Problem 1(a,b): Graph Search
 # ----------------------------
 
 GRAPH: Dict[Node, List[Node]] = {
@@ -63,7 +63,7 @@ def dfs_graph(graph: Dict[Node, List[Node]], start: Node, goal: Node) -> Optiona
 
 
 # ---------------------------------------
-# Problem 1(c,d) + Problem 2: GRID SEARCH
+# Problem 1(c,d) + Problem 2: Grid Search
 # ---------------------------------------
 
 # 7 rows x 6 cols
@@ -81,7 +81,7 @@ GRID: List[List[int]] = [
 GRID_START: Coord = (6, 0)  # A
 GRID_GOAL: Coord = (3, 3)   # B
 
-# neighbors order matters for DFS/DLS paths.
+# neighbors order matters for DFS/DLS paths
 # using Right, Down, Left, Up
 DIRS: List[Tuple[int, int]] = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
